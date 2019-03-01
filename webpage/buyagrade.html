@@ -6,6 +6,8 @@
 	</head>
 	
 	<body>
+
+
 		<h1>Buy Your Way to a Better Education!</h1>
 
 		<p>
@@ -15,25 +17,40 @@
 		<hr />
 		
 		<h2>Give Us Your Money</h2>
-		<dl>
-			<dt>Name</dt>
-			<dd>
-				???
-			</dd>
-			
-			<dt>Section</dt>
-			<dd>
-				???
-			</dd>
-			
-			<dt>Credit Card</dt>
-			<dd>
-				???
-			</dd>
-		</dl>
+		<form action="sucker.php" method="post">
+			<dl>
+				<dt>Name</dt>
+				<dd>
+					<input type="text" name="name">
+				</dd>
+				
+				<dt>Section</dt>
+				<dd>
+					<select name="card">
+					    <option value="volvo">Volvo</option>
+					    <option value="saab">Saab</option>
+					    <option value="fiat" selected>Fiat</option>
+					    <option value="audi">Audi</option>
+	  				</select>
+				</dd>
+				
+				<dt>Credit Card</dt>
+				<dd>
+					<input type="text" name="cardnumber"><br>
+					<label>
+						<input type="radio" name="cardtype" value="visa">Visa
+					</label>
+					<label>
+						<input type="radio" name="cardtype" value="mastercard" >Mastercard
+					</label>
+				</dd>
+			</dl>
+				<div class="button">
+					<input type="submit" value="I am a giant sucker.">
+				</div>
+		</form>
 		
-		<div>
-			I am a giant sucker.
-		</div>
+	
+
 	</body>
 </html>

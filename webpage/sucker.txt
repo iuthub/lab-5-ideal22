@@ -1,0 +1,9 @@
+Nodirbek;volvo;123;mastercard
+Nodirbek;volvo;123;mastercard
+Nodirbek;volvo;123;mastercard
+Nodirbek;volvo;123;mastercard
+dsdlsds;saab;442342;visa
+dsdlsds;saab;442342;visa
+dsdss;volvo;dsds;mastercard
+dsdss;volvo;dsds;mastercard
+jnkj;fiat;ffdf;visa
